@@ -61,7 +61,7 @@
       <el-col :span="14">
           <el-button type="text" style="color: red" @click="deleteAll">清空购物车</el-button>
       </el-col>
-      <el-col :span="8">
+      <el-col :span="6">
         <span class="content_right">
             <span>
               <font color="#777">已选商品</font>&nbsp;&nbsp;<font color="#ffd700" size="5px">{{length}}</font>&nbsp;
@@ -71,7 +71,7 @@
             </span>
           </span>
       </el-col>
-      <el-col :span="2">
+      <el-col :span="4">
         <el-button type="danger" round @click="submitPay">提交订单</el-button>
       </el-col>
     </el-row>
